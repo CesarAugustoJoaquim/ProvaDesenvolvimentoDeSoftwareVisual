@@ -4,14 +4,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from "@angular/common/http";
 import { FormsModule } from '@angular/forms';
-import { CadastrarautomovelComponent } from './components/views/automovel/cadastrarautomovel/cadastrarautomovel.component';
-import { ListarautomovelComponent } from './components/views/automovel/listarautomovel/listarautomovel.component';
+import { ListarAutomovelComponent } from './components/views/automovel/listar-automovel/listar-automovel.component';
+import { CadastarAutomovelComponent } from './components/views/automovel/cadastar-automovel/cadastar-automovel.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        CadastrarautomovelComponent,
-        ListarautomovelComponent
+        ListarAutomovelComponent,
+        CadastarAutomovelComponent
     ],
     imports: [
         BrowserModule,
